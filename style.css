@@ -108,7 +108,40 @@
     font-size: 20px;
     font-weight: 400;
     margin-top: 15px;
+    padding-left: 20px;
 }
 .banner2-img{
     margin: 80px 60px 0;
+}
+.banner3{
+    background-color: rgb(247, 218, 223);
+    width: 80%;
+    height: 400px;
+    border: 0;
+    border-radius: 15px;
+    margin: 80px auto;
+    position: relative;
+}
+.banner3-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner3-text h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.banner3-text button{
+    font-size: 20px;
+    margin: 30px 0 20px 200px;
+    padding: 14px 16px;
+    background-color: #F00;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
 }
