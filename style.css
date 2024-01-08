@@ -351,3 +351,83 @@ label{
     font-size: 20px;
     border-radius: 0 20px 20px 0;
 }
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background: #070211;
+}
+.footer-div1{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ }
+ .footer-div1-text{
+    margin: 30px auto;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 15%;
+} 
+.footer-div1-text p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.footer-div1-add{
+    margin: 30px auto;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+.footer-add1{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.footer-add2{
+    gap: 10px;
+    display: flex;
+    font-size: 20px;
+} 
+hr{
+    width: 80%;
+    color: #221414;
+    margin: 10px auto;
+}
+.footer-div2{
+    height: 150px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-div2-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+.footer-div3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.footer-div3-left{
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-div3-right{
+    text-align: center;
+    margin: 0 auto;
+}
