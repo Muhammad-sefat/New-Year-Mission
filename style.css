@@ -10,7 +10,7 @@
     height: 600px;
     border: 0;
     border-radius: 15px;
-    background-image: url("resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Banner\ Image.png");
     background-position: center;
     background-size: cover;
     margin: 50px auto;
@@ -25,7 +25,7 @@
 }
 .banner1-text h4{
     text-align: center;
-    font-size: 32px;
+    font-size: 35px;
     margin-bottom: 10px;
     font-weight: 400;
     color: #fff;
@@ -37,6 +37,7 @@
     font-weight: 900;
     line-height: 70px;
     color: #fff;
+    line-height: 88px;
 }
 
 .main1{
@@ -72,7 +73,7 @@
     height: 600px;
     border: 0;
     border-radius: 15px;
-    background-image: url("resources/Vectorrr.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Vectorrr.png");
     background-position: center;
     background-size: cover;
     margin: 50px auto;
@@ -144,4 +145,142 @@
     text-align: center;
     border: 0;
     border-radius: 10px;
+}
+
+.banner4{
+    width: 80%;
+    height: 600px;
+    border: 0;
+    border-radius: 15px;
+    margin: 60px auto;
+}
+.banner-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.banner-div1{
+    flex: 32%;
+    margin: 10px;
+}
+.banner-div1 h2{
+    font-size: 24px;
+    color: #F00;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.banner-div1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.banner-div1 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+}
+.banner-div2{
+    margin: 10px 30px;
+    padding: 20px;
+    border: 12px solid orangered;
+    border-radius: 50%;
+    flex: 32%;
+}
+.banner-div3{
+    margin: 10px 0 0 80px;
+    flex: 30%;
+}
+.banner-div3 h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+.banner-div3 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(7, 2, 17, 0.60);
+}
+.banner-div3 img{
+    margin: 50px 0 0;
+    height: 140px;
+}
+
+.banner5{
+    width: 80%;
+    height: 880px;
+    border: 0;
+    border-radius: 15px;
+    margin: 60px auto;
+    position: relative;
+}
+.banner5-text{
+    text-align: center;
+}
+.banner5-text h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner5-text h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.banner5-text p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+    margin: 10px 40px;
+    text-align: center;
+}
+.img1{
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+.img2{
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+.img3{
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 60%;
+}
+.img4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.banner6{
+    width: 80%;
+    height: 100vh;
+    border: 0;
+    border-radius: 15px;
+    margin: 60px auto;
+}
+.banner6 h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #F00;
+    margin: 10px;
+}
+.banner6-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+}
+.banner6-img1{
+    width: 30%;
 }
