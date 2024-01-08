@@ -123,7 +123,7 @@
     border-radius: 10px;
 }
 .banner2-img{
-    margin: 80px 60px 0;
+    margin: 80px auto 0;
 }
 .banner3{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -282,7 +282,7 @@
     height: 800px;
     border: 0;
     border-radius: 15px;
-    margin: 100px auto 60px;
+    margin: 100px auto;
 }
 .banner6 h4{
     font-size: 24px;
@@ -305,20 +305,21 @@
 .banner6-img{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 60px;
+    justify-content: center;
+    gap: 15px;
 }
 .banner6-img1{
-    width: 30%;
+    flex-basis: 32%;
+}
+.banner6-img1 img{
+    width: 100%;
 }
 .banner7{
     width: 80%;
     height: 600px;
     border: 0;
     border-radius: 15px;
-    margin: 30% auto 60px;
+    margin: 170px auto 60px;
     background: rgba(255, 0, 0, 0.05);
     position: relative;
 }
@@ -333,7 +334,7 @@
     margin: 20px 0;
 }
 .banner7-text h1{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 900;
     margin: 20px 0;
 }
